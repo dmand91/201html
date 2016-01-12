@@ -1,0 +1,70 @@
+#header {
+    background-color: rgb(10,15,70);
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    min-width: 100px;
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:10%;
+    float:left;
+    padding:5px;
+}
+#picture-section{
+
+}
+#profile{
+     max-width:200px;
+     padding-right: 20px;
+
+}
+#logos{
+ max-width:50px;
+     padding-right: 20px;
+}
+#section {
+    position: relative;
+    min-width:350px;
+    background-color:rgb(255, 255, 255);
+    width:80%;
+    height: 80%;
+    float:left;
+    padding:10px;
+    overflow: scroll;
+    max-height: 500px;
+}
+#footer {
+    background-color: rgb(10,15,70);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+     position:absolute;
+   bottom:0;
+   width:100%;
+
+}
+#page-wrapper{
+   position:relative
+
+
+}
+body{
+   background-color:#eeeeee
+}
+h3{
+font-style:bold;
+}
+h4{
+font-style: italic;
+}
+
+
+
+
+
+
+
