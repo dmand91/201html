@@ -3,59 +3,105 @@
 
 <head>
 		 <meta charset="utf-8">
-        <title>Contact Me</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
- </head>
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href = "css/bootstrap.min.css">
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">  
 
 
+</head>
 
 <body>
-<div id="page-wrapper">	
-       <div id="header">
-<h1>David Hinckley</h1>
+￼<header>
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hinckley Weather</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="http://54.213.68.133/PROJECTS/CS360/lab0Weather/index.html">Current Weather</a></li>
+      <li class="active"><a href="http://54.213.68.133/PROJECTS/CS360/lab0Weather/forecast.html">Weather Forecast</a></li>
+      <li><a href="http://54.213.68.133/PROJECTS/CS360/lab0Weather/resume">My Resume</a></li> 
+     
+    </ul>
+  </div>
+</nav>
+
+</header>
+<div id='main'>
+    <article>
+        <h1>Weather Forecast</h1>
+
+
+        <h3>Please enter your city and state to see the weather forecast</h3>
+
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <label for="city">City:</label>
+            <input type="city" class="form-control" id="city">
+          </div>
+          <div class="form-group">
+            <label for="state">State:</label>
+            <input type="state:" class="form-control" id="state">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+   		 <br>
+        <img id= "current-weather-img" src ="http://doppler.turnto10.com/WEB_7DAY.jpg">
+        <br>
+
+        <h2> Cities Nearby</h2>
+
+     <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>City</th>
+        <th>State</th>
+        <th>Forecast</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Provo</td>
+        <td>Utah</td>
+        <td><a href ="#">Link</a></td>
+      </tr>
+      <tr>
+        <td>Ogden</td>
+        <td>Utah</td>
+       <td><a href ="#">Link</a></td>
+      </tr>
+      <tr>
+        <td>Logan</td>
+        <td>Utah</td>
+        <td><a href ="#">Link</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+    </article>
+    <nav>
+     
+
+
+    </nav>
+    <aside>
+
+    </aside>
 </div>
-
-<div id="nav">
-<a href = "http://54.213.68.133/201/lab1Resume/index.html">About Me</a><br>
-<a href = "http://54.213.68.133/201/lab1Resume/resume.html">My Resume</a><br>
-<a href = "http://54.213.68.133/201/lab1Resume/contact.html">Contact Me</a>
-</div>
-
-<div id="section">
-<h1>Contact Me</h1>
-
-<div id="picture-section">
-
-
-</div>
-
-<p>You are more than welcome to contact me. Please contact me using facebook, linked in or twitter. Choose the icons below. </p>
-<hr>
-<a href="http://www.facebook.com">
-<img id= "logos" src="https://www.seeklogo.net/wp-content/uploads/2011/06/facebook-icon-logo-vector.png" rel = "facebook.com">
-</a>
-
-<a href="http://www.linkedin.com">
-<img id= "logos" src="https://fundraiserbeth.files.wordpress.com/2013/07/linkedin-logo.jpg" rel = "linkedin.com"></a>
-<a href="http://www.twitter.com">
-<img id= "logos" src="http://www.festival-droitsdelhomme.org/strasbourg/images/twitter1.png" rel = "twitter.com">
-</a>
-<p id="demo">Click the button to see my phone number.</p>
-
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = '(425)453-2361'">
-Click Me!</button>
-
-
-
-
-
-</div>
-</div>
-
-<div id="footer">
-Hinckley Development
-</div>
+<footer>Hinckley Development</footer>
 
 </body>
 

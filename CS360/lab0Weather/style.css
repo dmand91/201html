@@ -3,17 +3,19 @@
         flex-flow: row; }
 #main > article { flex: 3 1 70%;
                   order: 2; 
-                  background-color: white}
+                  background-color:rgb(255,255,255);
+                    text-align: center; 
+                }
 #main > nav { flex: 1 6 15%;
               order: 1; 
-              background-color: rgb(216,216,216) 
+              background-color: rgb(122,205,219);
 }
 #main > aside { flex: 1 6 15%;
                 order: 3; 
-                background-color: rgb(216,216,216) 
+                background-color: rgb(122,205,219);
 }
 header, footer { display: block;
-                      background-color: rgb(0,182,220);
+                      background-color: rgb(122,205,219);
                        text-align: center;
                  }
 @media all and (max-width: 640px) {
@@ -25,13 +27,14 @@ header, footer { display: block;
         { order: 0; }
     #main > nav, #main > aside, header, footer
         { min-height: 50px; max-height: 50px; }
-}
+      }
 body {
-    background-color: rgb(0,182,220);
+    background-color: rgb(122,205,219);
+
 }
 #current-weather-img{
 
-    max-width: 100%;
+    max-width: 90%;
 }
 h1{
 
@@ -40,6 +43,19 @@ h1{
 h3{
 
   font-style: italic;
+}
+.btn-lg{
+  min-width: 100%;
+  background-color: rgb(219,92,46);
+
+}
+.table-hover{
+  text-align: left;
+   
+}
+#resume-body{
+  text-align: left;
+  padding: 20px;
 }
 
 
