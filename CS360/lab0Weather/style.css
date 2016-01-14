@@ -1,0 +1,50 @@
+#main { min-height: 800px;
+        display: flex;
+        flex-flow: row; }
+#main > article { flex: 3 1 70%;
+                  order: 2; 
+                  background-color: white}
+#main > nav { flex: 1 6 15%;
+              order: 1; 
+              background-color: rgb(216,216,216) 
+}
+#main > aside { flex: 1 6 15%;
+                order: 3; 
+                background-color: rgb(216,216,216) 
+}
+header, footer { display: block;
+                      background-color: rgb(0,182,220);
+                       text-align: center;
+                 }
+@media all and (max-width: 640px) {
+    #main, #page {
+        flex-direction: column;
+    }
+
+￼    #main > article, #main > nav, #main > aside
+        { order: 0; }
+    #main > nav, #main > aside, header, footer
+        { min-height: 50px; max-height: 50px; }
+}
+body {
+    background-color: rgb(0,182,220);
+}
+#current-weather-img{
+
+    max-width: 100%;
+}
+h1{
+
+  text-align: center;
+}
+h3{
+
+  font-style: italic;
+}
+
+
+
+
+
+
+
