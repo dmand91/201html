@@ -1,0 +1,40 @@
+body{
+	
+	background: url("http://www.myirishconnections.com/Images/Genealogy/PICT4300.JPG") no-repeat fixed center;
+
+
+
+}
+
+h2{
+
+
+text-align: center;
+color: white;
+
+}
+
+#forms{
+      
+	 width: 300px;
+    height: 100px;
+   color: white;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    
+    
+}
+#list{
+
+   width: 500px;
+   height: 20px;
+    position: relative;
+    color: white;
+
+}
